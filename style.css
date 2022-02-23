@@ -88,3 +88,82 @@
     border-radius: 50%;
     padding: 2px;
 }
+
+/* ANCHOR main */
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 25%;
+}
+
+.menu-main-a {
+    color: grey;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 8px;
+    margin: 5px 0 0 8px;
+}
+
+.styletype {
+    list-style-type: none;
+    display: inline;
+}
+
+.margin {
+    margin-left: 25%;
+    padding-top: 8px;
+}
+
+.active {
+    border-bottom: 2px solid lime;
+    padding-bottom: 2px;
+}
+
+.cover {
+    width: 100%;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.title {
+    display: block;
+    color: #fff;
+    font-size: 9px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.album {
+    display: block;
+    color: #fff;
+    font-size: 9px;
+    margin-bottom: 10px;
+
+}
+
+.recently-played {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.cover-container {
+    width: 40%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.cover-container1 {
+    
+    width: 40%;
+    text-align: center;
+}
