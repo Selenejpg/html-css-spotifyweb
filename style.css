@@ -19,33 +19,6 @@
     display: flex;
 }
 
-/* ANCHOR Main */
-
-.main {
-    background-color: #262e35;
-    width: 95%;
-    overflow-y: auto;
-}
-
-.cta {
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    text-align: right;
-    padding: 30px 20px 30px 0;
-} 
-
-.cta-button {
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: 1px solid #fff;
-    color: #fff;
-    text-transform: capitalize;
-    text-decoration: none;
-}
-
 /* ANCHOR aside */
 
 .aside {
@@ -91,19 +64,60 @@
 
 /* ANCHOR main */
 
+/* generali main */
+
+h1 {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+h2{
+    font-size: 20px;
+}
+
 .main {
+    background-color: #262e35;
+    width: 95%;
+    overflow-y: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 25%;
+    padding-top: 80px;
 }
+
+/* cta */
+
+.cta {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    padding: 30px 20px 30px 0;
+} 
+
+.cta-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/* fine cta */
+
+/* nav */
 
 .menu-main-a {
     color: grey;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 8px;
-    margin: 5px 0 0 8px;
+    margin-right: 3px;
 }
 
 .styletype {
@@ -113,7 +127,7 @@
 
 .margin {
     margin-left: 25%;
-    padding-top: 8px;
+    padding-top: 8px; 
 }
 
 .active {
@@ -121,15 +135,16 @@
     padding-bottom: 2px;
 }
 
+/* fine nav */
+
+/* sezione cover main */
+
 .cover {
     width: 100%;
 }
 
-h1 {
-    margin-top: 20px;
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: white;
+.bigtitle {
+    width: 100%;
 }
 
 .title {
@@ -163,7 +178,41 @@ h1 {
 }
 
 .cover-container1 {
-    
     width: 40%;
     text-align: center;
 }
+
+.john {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.popolari {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.ascolti {
+    font-size: 13px;
+    margin-top: 5px;
+    color: grey;
+}
+
+.perte {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* fine sezione cover main */
